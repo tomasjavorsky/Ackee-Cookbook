@@ -1,0 +1,45 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "outDir": "dist",
+    "target": "es5",
+    "rootDir": "src",
+    "noImplicitReturns": true,
+    "incremental": true,
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipDefaultLibCheck": true,
+    "noUnusedLocals": false,
+    "module": "esNext",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "downlevelIteration": true,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true
+  },
+  "types": [
+    "react",
+    "node",
+    "jest"
+  ],
+  "lib": [
+    "dom",
+    "es5",
+    "es6",
+    "es7",
+    "es2017.object"
+  ],
+  "include": [
+    "src"
+  ]
+}
